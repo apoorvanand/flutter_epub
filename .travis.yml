@@ -41,8 +41,8 @@ matrix:
       provider: s3
       file: app-release.apk
       skip_cleanup: true
-      access_key_id: "AKIAXKSB6OYVEP5K5EWR"
-      secret_access_key: "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"
+      access_key_id: "AKIAXKSB6OYVL6VDJSHX"
+      secret_access_key: "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"
       bucket: "datalake11"
   - name: iOS Build
     os: osx
