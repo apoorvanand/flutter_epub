@@ -39,11 +39,10 @@ matrix:
       - flutter build apk
     deploy:
       provider: releases
-      file: TravisExample.apk
+      file: epub.apk
       skip_cleanup: true
       on:
         repo: apoorvanand/flutter_epub
-        tags: true
         jdk: oraclejdk8
       api_key:
         secure: "PSWXBsM/F7nlx+ImG3NQm0olF2hzt2lrjOZQXuS6MbEO1Yux1olqaqiAiiS3dEA+Lg3+UuTyWaT/uG59GrGA1/BZ0teE5qFGP38PJFdFZUJyVjDTx/J1/KRreILZE6GLNwPTFmUpKoBcg1n4Z2U2IJeDEbhxQ9o1/theszQqJJm9QlAq/IxyvmtLzqgUgbRWgqsXjaZaOOcthDvvsICnY0pjUvfEy57EczPJTcua4ZMb/yiVJrrc0N/YsTIuV1PKBFpqoD/5XCPhpq/e4p3JKJgtgETwql/V31W5BM/OEJp+LWUW6uTJLDBJtQ7K68BF+j21rpESU8Ueh8gvAQ8+Zyzz0lWWEg0v6EU1KY3aiB2z3QPQBYw8DT+/B+NnshHYAyVE1Zx8D8j5/nMEMoY/kbajfINBxHdokyQCyhLOKLzdVcYji0HErwE9gVQk7dX+JHyFnayOPB75l++uRpMLYujMfl4djR1vLBAIvyfu8+azLecfAFKIoLcjC1oI2av+7Inhx4J1eeyUo4do63lm1tm/nwU2sUrWG+BaC9NM7zR5EcByYl1x4SD5ggENB/sG+lZdIE4Gg+S3AXP00fhp8hl0EgfaSpKjbgm3Wk0AliAgVhsH4b88QiOmncBuXREuVsztvEcZcIy56kWlgQpwKe260UXfAHe/l85S4s99duw="
