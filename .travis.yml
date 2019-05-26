@@ -45,7 +45,7 @@ matrix:
         repo: apoorvanand/flutter_epub
         jdk: oraclejdk8
       api_key:
-        secure: "PSWXBsM/F7nlx+ImG3NQm0olF2hzt2lrjOZQXuS6MbEO1Yux1olqaqiAiiS3dEA+Lg3+UuTyWaT/uG59GrGA1/BZ0teE5qFGP38PJFdFZUJyVjDTx/J1/KRreILZE6GLNwPTFmUpKoBcg1n4Z2U2IJeDEbhxQ9o1/theszQqJJm9QlAq/IxyvmtLzqgUgbRWgqsXjaZaOOcthDvvsICnY0pjUvfEy57EczPJTcua4ZMb/yiVJrrc0N/YsTIuV1PKBFpqoD/5XCPhpq/e4p3JKJgtgETwql/V31W5BM/OEJp+LWUW6uTJLDBJtQ7K68BF+j21rpESU8Ueh8gvAQ8+Zyzz0lWWEg0v6EU1KY3aiB2z3QPQBYw8DT+/B+NnshHYAyVE1Zx8D8j5/nMEMoY/kbajfINBxHdokyQCyhLOKLzdVcYji0HErwE9gVQk7dX+JHyFnayOPB75l++uRpMLYujMfl4djR1vLBAIvyfu8+azLecfAFKIoLcjC1oI2av+7Inhx4J1eeyUo4do63lm1tm/nwU2sUrWG+BaC9NM7zR5EcByYl1x4SD5ggENB/sG+lZdIE4Gg+S3AXP00fhp8hl0EgfaSpKjbgm3Wk0AliAgVhsH4b88QiOmncBuXREuVsztvEcZcIy56kWlgQpwKe260UXfAHe/l85S4s99duw="
+        secure: "IBDRkabCu+Td8qO6bu6P4zqtLRGnCfTSIdKCi+1i0v8Px9SLEAEO5ADrgvD39fCBPVEt66ofM0w8JBt7o+oLhloen/g9CjOGXWENEmyTjLzK0cPSVsoI9CIxcjjd6paguM0BPze5K4qqlLrpL+OA9T6PyAF0ZFLZqTJh0++06aFaEmjpzu5FlhWQi0O0j2PY/n7mja7Ct/AeHpqK3u0yAUBpL+k06qGiXe7qxv2cYCJAXxDj5eBgf1iMjDnEp9IVhszoN6LMZ/CbRJzodLMV5+d8cxWtiPmg3eijnGRBK/pcDh++7Nt3DDkR3UJp5gDMshF5aYMgwv/yC/uwiMskVxXURe1mgwxj7mNqk5PlPI5oESdaRNRoDiFf0PTnKmw8QwVHEpHQA5iw8tIcCpnLTC1VYeF6Rzr3cNB1HBXgtG46QZ34qJFvVpbccn1wkqFkgswZ7YlKleIpBBc7drqtQMhtKf97JDLScc1vxY9O+lN/hSdY9/8DDKEfaEf0L3WCmK3L/Z1lrY5OA/TZLZf8Z7ikcSO4mpMLFrPubrMyzLmX0LgCnRDXqGknJFGG9jGEmEhM+Sf85XLwxwi1v5L1BdDsrLGAiq8GbwAqIr+4KDY6TspL5p3ijHzlFQ9cBSL50PONJeiU0foQFwvFOEP88m/AetFBhBhxe8erdlE2aKs="
   - name: iOS Build
     os: osx
     language: generic
