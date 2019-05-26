@@ -41,9 +41,9 @@ matrix:
       provider: s3
       file: app-release.apk
       skip_cleanup: true
-      access_key_id: "AKIAXKEXAMPLE"
-      secret_access_key: "EXAMPLE+QaEQrdPzqI"
-      bucket: "zypherbooks"
+      access_key_id: "AKIAXKSB6OYVEP5K5EWR"
+      secret_access_key: "i103zUfEsSS2NAlR8F0lrDz1CROTD+QaEQrdPzqI"
+      bucket: "datalake11"
   - name: iOS Build
     os: osx
     language: generic
@@ -54,10 +54,3 @@ matrix:
     script:
       - flutter packages get
       - flutter build ios --no-codesign
-    deploy:
-      provider: s3
-      file: Runner.app
-      skip_cleanup: true
-      access_key_id: "EXAMPLE"
-      secret_access_key: "EXAMPLE+QaEQrdPzqI"
-      bucket: "zypherbooks" 
