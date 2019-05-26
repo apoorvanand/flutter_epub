@@ -38,14 +38,12 @@ matrix:
       - flutter packages get
       - flutter build apk
     deploy:
-      provider: releases
+      provider: s3
       file: epub.apk
       skip_cleanup: true
-      on:
-        repo: apoorvanand/flutter_epub
-        jdk: oraclejdk8
-      api_key:
-        secure: "IBDRkabCu+Td8qO6bu6P4zqtLRGnCfTSIdKCi+1i0v8Px9SLEAEO5ADrgvD39fCBPVEt66ofM0w8JBt7o+oLhloen/g9CjOGXWENEmyTjLzK0cPSVsoI9CIxcjjd6paguM0BPze5K4qqlLrpL+OA9T6PyAF0ZFLZqTJh0++06aFaEmjpzu5FlhWQi0O0j2PY/n7mja7Ct/AeHpqK3u0yAUBpL+k06qGiXe7qxv2cYCJAXxDj5eBgf1iMjDnEp9IVhszoN6LMZ/CbRJzodLMV5+d8cxWtiPmg3eijnGRBK/pcDh++7Nt3DDkR3UJp5gDMshF5aYMgwv/yC/uwiMskVxXURe1mgwxj7mNqk5PlPI5oESdaRNRoDiFf0PTnKmw8QwVHEpHQA5iw8tIcCpnLTC1VYeF6Rzr3cNB1HBXgtG46QZ34qJFvVpbccn1wkqFkgswZ7YlKleIpBBc7drqtQMhtKf97JDLScc1vxY9O+lN/hSdY9/8DDKEfaEf0L3WCmK3L/Z1lrY5OA/TZLZf8Z7ikcSO4mpMLFrPubrMyzLmX0LgCnRDXqGknJFGG9jGEmEhM+Sf85XLwxwi1v5L1BdDsrLGAiq8GbwAqIr+4KDY6TspL5p3ijHzlFQ9cBSL50PONJeiU0foQFwvFOEP88m/AetFBhBhxe8erdlE2aKs="
+      access_key_id: "AKIAXKSB6OYVEP5K5EWR"
+      secret_access_key: "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"
+      bucket: "zypherbooks"
   - name: iOS Build
     os: osx
     language: generic
@@ -56,3 +54,10 @@ matrix:
     script:
       - flutter packages get
       - flutter build ios --no-codesign
+    deploy:
+      provider: s3
+      file: epub.ipa
+      skip_cleanup: true
+      access_key_id: "AKIAXKSB6OYVEP5K5EWR"
+      secret_access_key: "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"
+      bucket: "zypherbooks" 
